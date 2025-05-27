@@ -1,0 +1,27 @@
+{
+  "Data": {
+    "pose": {
+        "generate_length": 128,
+        "expression": true
+      },
+    "num_classes":31
+  },
+  "Model": {
+    "model_type": "body",
+    "model_name": "s2a_body_retnet",
+    "code_num": 2048,
+    "AudioOpt": "Adam",
+    "encoder_choice": "mfcc",
+    "vq_path": "./checkpoints/vqvae.pth",
+    "p2s_path": "./checkpoints/p2s.pth"
+  },
+  
+  "Train": {
+    "epochs": 100,
+    "learning_rate": {
+      "generator_learning_rate": 1e-4,
+      "discriminator_learning_rate": 1e-4
+    }
+  }
+}
+  
