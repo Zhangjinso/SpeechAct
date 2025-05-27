@@ -1,6 +1,5 @@
  **SpeechAct: Towards Generating Whole-body Motion from Speech** 
 
-#### 安装教程
 
 1.Setup environment
 Create conda environment:
