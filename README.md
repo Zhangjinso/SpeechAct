@@ -9,6 +9,8 @@ Create conda environment:
 conda env create -f environment.yml
 conda activate speechact
 ```
+Go to "WavLM" folder and download "WavLM-large.pt".
+
 2.Test
 
 Download [pretrained models](https://drive.google.com/file/d/1FPalJ3NK5EY_kzmBa6LChz2vN48ZNbSZ/view?usp=drive_link), extract to the current folder:
